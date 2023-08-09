@@ -170,7 +170,7 @@ public class CitasView extends Div implements BeforeEnterObserver,CitasViewModel
         save.addClickListener(e -> {
             try {
             	
-            	String MensajeExito = "Registro Guardado!";
+            	String MensajeExito = "Registro Guardado";
                 if (this.citas == null) {
                     //CEANDO REGISTRO 
                 	this.citas = new Citas();
